@@ -99,7 +99,7 @@
             <h3><span><?php _e('Hawassa', 'epsilon'); ?></span></h3>
           </a>
           
-          <a href="<?php echo osc_search_url(array('page' => 'search','sCity' => '15235017','sLocation'=>'Adama')); ?>" class="all" style="flex: 1 1 20%; margin: 5px;">
+          <a href="<?php echo osc_search_url(array('page' => 'search','sCity' => '15235017','sLocation'=>'Adama')); ?>" class="all" style="flex: 1 1 calc(20% - 10px); margin: 5px;">
             <div>
              <img class="city_icons" style="width: 100%; height: auto;" src="https://connecthabesha.com/oc-content/themes/epsilon/images/adama.PNG" />
             </div>
