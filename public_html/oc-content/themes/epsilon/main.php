@@ -126,6 +126,7 @@
             flex-wrap: wrap;
             justify-content: space-between;
             max-width: 780px;
+            margin: 0 auto;
           }
 
           #home-cat a {
@@ -139,6 +140,10 @@
             margin: 5px;
             text-align: center;
             max-width: calc(20% - 10px);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
           }
           .city-box img {
             width: 100%;
