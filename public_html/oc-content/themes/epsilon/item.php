@@ -663,10 +663,10 @@
             <span><?php _e('Be cautious of individuals who request payment before meeting in person. ', 'epsilon'); ?></span>
           </div>
           
-          <div class="point">
-            <div class="icon i3"><i class="fas fa-user-secret"></i></div>
-            <span><?php _e('Do not invite strangers into your home.', 'epsilon'); ?></span>
-          </div>
+            <div class="point" style="display: flex; align-items: center; justify-content: space-between;">
+              <div class="icon i3"><i class="fas fa-user-secret"></i></div>
+              <span><?php _e('Do not invite strangers into your home.', 'epsilon'); ?></span>
+            </div>
         </div>
 
         <a href="#" class="report-button">
