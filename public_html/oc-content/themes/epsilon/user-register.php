@@ -97,9 +97,9 @@
           
           <div class="td-wrap d1 input-box" style="width:100%;font-size:11px">
             <?php _e('By creating an account, you agree to our', 'epsilon'); ?> 
-            <a href="<?php echo osc_base_url(); ?>index.php?page=page&id=33" target="_blank" ><?php _e('Terms of Use', 'epsilon'); ?></a>,
+            <a href="<?php echo osc_base_url(); ?>index.php?page=page&id=23" target="_blank" ><?php _e('Terms of Service', 'epsilon'); ?></a>,
             <a href="<?php echo osc_base_url(); ?>index.php?page=page&id=32" target="_blank" ><?php _e('Privacy Policy', 'epsilon'); ?></a>, and 
-            <a href="<?php echo osc_base_url(); ?>" target="_blank" ><?php _e('Cookie Policy', 'epsilon'); ?></a>
+            <a href="<?php echo osc_base_url(); ?>index.php?page=page&id=33" target="_blank" ><?php _e('Cookie Use.', 'epsilon'); ?></a>
             <span class="req">*</span>
           </div>
         </div>
