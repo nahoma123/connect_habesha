@@ -125,7 +125,14 @@
             display: flex;
             flex-wrap: wrap;
             justify-content: space-between;
+            max-width: 780px;
           }
+
+          #home-cat a {
+            width: 100%;
+            height: 184px;
+          }
+          
           .city-box {
             flex: 1 1 calc(20% - 10px);
             box-sizing: border-box;
