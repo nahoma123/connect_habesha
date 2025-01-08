@@ -17,9 +17,9 @@ services:
     restart: always
     environment:
       MYSQL_ROOT_PASSWORD: root_password  # Replace with your root password
-      MYSQL_DATABASE: u609444707_NvDH4   # Your database name
-      MYSQL_USER: u609444707_6txkv       # Your database username
-      MYSQL_PASSWORD: sY39jGu9qQ         # Your database password
+      MYSQL_DATABASE: u609444707_NvDH4new   # Your database name
+      MYSQL_USER: u609444707_6txkvnew       # Your database username
+      MYSQL_PASSWORD: 1A/T#pm|t|rf         # Your database password
     volumes:
       - db_data:/var/lib/mysql
 
@@ -31,8 +31,8 @@ services:
       - "8081:80"
     environment:
       PMA_HOST: db
-      PMA_USER: u609444707_6txkv
-      PMA_PASSWORD: sY39jGu9qQ
+      PMA_USER: u609444707_6txkvnew
+      PMA_PASSWORD: 1A/T#pm|t|rf
     depends_on:
       - db
 
