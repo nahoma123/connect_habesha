@@ -78,48 +78,75 @@
 
         <h2><?php _e('Top Cities', 'epsilon'); ?></h2>
         
-        <div id="home-cat" style="display: flex; flex-wrap: wrap; justify-content: space-between;">
+        <div id="home-cat" class="city-container">
           <?php 
             osc_goto_first_category(); 
             $new_categories = explode(',', eps_param('categories_new'));
             $hot_categories = explode(',', eps_param('categories_hot'));
           ?>
           
-          <a href="<?php echo osc_search_url(array('page' => 'search','sCity' => '15235021','sLocation'=>'Addis+Ababa')); ?>" class="all" style="flex: 1 1 20%; margin: 5px;">
+          <a href="<?php echo osc_search_url(array('page' => 'search','sCity' => '15235021','sLocation'=>'Addis+Ababa')); ?>" class="city-box">
             <div>
-             <img class="city_icons" style="width: 100%; height: auto;" src="https://connecthabesha.com/oc-content/themes/epsilon/images/addis-ababa.PNG" />
+             <img class="city_icons" src="https://connecthabesha.com/oc-content/themes/epsilon/images/addis-ababa.PNG" />
             </div>
             <h3><span><?php _e('Addis Ababa', 'epsilon'); ?></span></h3>
           </a>
           
-          <a href="<?php echo osc_search_url(array('page' => 'search','sCity' => '15235080','sLocation'=>'Hawassa+(Awassa)')); ?>" class="all" style="flex: 1 1 20%; margin: 5px;">
+          <a href="<?php echo osc_search_url(array('page' => 'search','sCity' => '15235080','sLocation'=>'Hawassa+(Awassa)')); ?>" class="city-box">
             <div>
-             <img class="city_icons" style="width: 100%; height: auto;" src="https://connecthabesha.com/oc-content/themes/epsilon/images/awasa.jpeg" />
+             <img class="city_icons" src="https://connecthabesha.com/oc-content/themes/epsilon/images/awasa.jpeg" />
             </div>
             <h3><span><?php _e('Hawassa', 'epsilon'); ?></span></h3>
           </a>
           
-          <a href="<?php echo osc_search_url(array('page' => 'search','sCity' => '15235017','sLocation'=>'Adama')); ?>" class="all" style="flex: 1 1 calc(20% - 10px); margin: 5px;">
+          <a href="<?php echo osc_search_url(array('page' => 'search','sCity' => '15235017','sLocation'=>'Adama')); ?>" class="city-box">
             <div>
-             <img class="city_icons" style="width: 100%; height: auto;" src="https://connecthabesha.com/oc-content/themes/epsilon/images/adama.PNG" />
+             <img class="city_icons" src="https://connecthabesha.com/oc-content/themes/epsilon/images/adama.PNG" />
             </div>
             <h3><span><?php _e('Adama', 'epsilon'); ?></span></h3>
           </a>
           
-          <a href="<?php echo osc_search_url(array('page' => 'search','sCity' => '15235043','sLocation'=>'Dire+Dawa')); ?>" class="all" style="flex: 1 1 20%; margin: 5px;">
+          <a href="<?php echo osc_search_url(array('page' => 'search','sCity' => '15235043','sLocation'=>'Dire+Dawa')); ?>" class="city-box">
             <div>
-             <img class="city_icons" style="width: 100%; height: auto;" src="https://connecthabesha.com/oc-content/themes/epsilon/images/addis-ababa.PNG" />
+             <img class="city_icons" src="https://connecthabesha.com/oc-content/themes/epsilon/images/addis-ababa.PNG" />
             </div>
             <h3><span><?php _e('Dire Dawa', 'epsilon'); ?></span></h3>
           </a>
-          
-          <a href="<?php echo osc_search_url(array('page' => 'search','sCity' => '15235089','sLocation'=>'Arba+Minch')); ?>" class="all" style="flex: 1 1 20%; margin: 5px;">
+          <a href="<?php echo osc_search_url(array('page' => 'search','sCity' => '15235089','sLocation'=>'Arba+Minch')); ?>" class="city-box">
             <div>
-             <img class="city_icons" style="width: 100%; height: auto;" src="https://connecthabesha.com/oc-content/themes/epsilon/images/addis-ababa.PNG" />
+             <img class="city_icons" src="https://connecthabesha.com/oc-content/themes/epsilon/images/addis-ababa.PNG" />
             </div>
             <h3><span><?php _e('Arba Minch', 'epsilon'); ?></span></h3>
           </a>
         </div>
+
+        <style>
+          .city-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+          }
+          .city-box {
+            flex: 1 1 calc(20% - 10px);
+            box-sizing: border-box;
+            margin: 5px;
+            text-align: center;
+          }
+          .city-box img {
+            width: 100%;
+            height: auto;
+          }
+          @media (max-width: 768px) {
+            .city-box {
+              flex: 1 1 calc(50% - 10px);
+            }
+          }
+          @media (max-width: 480px) {
+            .city-box {
+              flex: 1 1 100%;
+            }
+          }
+        </style>
       </div>
     </div>
   </section>
