@@ -1,0 +1,40 @@
+version: "3.8"
+
+services:
+  php:
+    image: php:7.4-apache
+    container_name: php_dev
+    ports:
+      - "8080:80"
+    volumes:
+      - .:/var/www/html
+    depends_on:
+      - db
+
+  db:
+    image: mysql:5.7
+    container_name: mysql_dev
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: root_password  # Replace with your root password
+      MYSQL_DATABASE: u609444707_NvDH4   # Your database name
+      MYSQL_USER: u609444707_6txkv       # Your database username
+      MYSQL_PASSWORD: sY39jGu9qQ         # Your database password
+    volumes:
+      - db_data:/var/lib/mysql
+
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    container_name: phpmyadmin
+    restart: always
+    ports:
+      - "8081:80"
+    environment:
+      PMA_HOST: db
+      PMA_USER: u609444707_6txkv
+      PMA_PASSWORD: sY39jGu9qQ
+    depends_on:
+      - db
+
+volumes:
+  db_data:
