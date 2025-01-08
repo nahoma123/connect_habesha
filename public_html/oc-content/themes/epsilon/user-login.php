@@ -185,6 +185,7 @@
     });
 </script>
     
-<?php osc_current_admin_theme_path('parts/footer.php'); ?>
+<?php osc_current_web_theme_path('footer.php') ; ?>
+
 </body>
 </html>
