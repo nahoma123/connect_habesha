@@ -1,0 +1,53 @@
+[06-Oct-2024 16:25:14 Europe/Madrid] PHP Warning:  <strong>SMTP Error: Could not authenticate.</strong><br />
+ in /home2/danroate/connecthabesha.com/oc-includes/osclass/utils.php on line 573
+[06-Oct-2024 16:25:18 Europe/Madrid] PHP Warning:  <strong>SMTP Error: Could not authenticate.</strong><br />
+ in /home2/danroate/connecthabesha.com/oc-includes/osclass/utils.php on line 573
+[06-Oct-2024 16:26:15 Europe/Madrid] PHP Warning:  <strong>SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting</strong><br />
+ in /home2/danroate/connecthabesha.com/oc-includes/osclass/utils.php on line 573
+[06-Oct-2024 16:26:52 Europe/Madrid] PHP Warning:  <strong>SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting</strong><br />
+ in /home2/danroate/connecthabesha.com/oc-includes/osclass/utils.php on line 573
+[06-Oct-2024 16:33:04 Europe/Madrid] PHP Warning:  <strong>SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting</strong><br />
+ in /home2/danroate/connecthabesha.com/oc-includes/osclass/utils.php on line 573
+[07-Nov-2024 10:59:54 America/Santiago] PHP Warning:  <strong>SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting</strong><br />
+ in /home2/danroate/connecthabesha.com/oc-includes/osclass/utils.php on line 573
+[07-Nov-2024 11:00:00 America/Santiago] PHP Warning:  <strong>SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting</strong><br />
+ in /home2/danroate/connecthabesha.com/oc-includes/osclass/utils.php on line 573
+[07-Nov-2024 11:01:07 America/Santiago] PHP Warning:  fgets() expects parameter 1 to be resource, bool given in /home2/danroate/connecthabesha.com/oc-includes/vendor/phpmailer/phpmailer/src/POP3.php on line 372
+[07-Nov-2024 11:01:07 America/Santiago] PHP Warning:  <strong>SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting</strong><br />
+ in /home2/danroate/connecthabesha.com/oc-includes/osclass/utils.php on line 573
+[07-Nov-2024 11:01:14 America/Santiago] PHP Warning:  fgets() expects parameter 1 to be resource, bool given in /home2/danroate/connecthabesha.com/oc-includes/vendor/phpmailer/phpmailer/src/POP3.php on line 372
+[07-Nov-2024 11:01:14 America/Santiago] PHP Warning:  <strong>SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting</strong><br />
+ in /home2/danroate/connecthabesha.com/oc-includes/osclass/utils.php on line 573
+[07-Nov-2024 11:01:42 America/Santiago] PHP Warning:  fgets() expects parameter 1 to be resource, bool given in /home2/danroate/connecthabesha.com/oc-includes/vendor/phpmailer/phpmailer/src/POP3.php on line 372
+[07-Nov-2024 11:01:42 America/Santiago] PHP Warning:  <strong>SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting</strong><br />
+ in /home2/danroate/connecthabesha.com/oc-includes/osclass/utils.php on line 573
+[07-Nov-2024 11:01:48 America/Santiago] PHP Warning:  fgets() expects parameter 1 to be resource, bool given in /home2/danroate/connecthabesha.com/oc-includes/vendor/phpmailer/phpmailer/src/POP3.php on line 372
+[07-Nov-2024 11:01:48 America/Santiago] PHP Warning:  <strong>SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting</strong><br />
+ in /home2/danroate/connecthabesha.com/oc-includes/osclass/utils.php on line 573
+[07-Nov-2024 11:01:51 America/Santiago] PHP Warning:  fgets() expects parameter 1 to be resource, bool given in /home2/danroate/connecthabesha.com/oc-includes/vendor/phpmailer/phpmailer/src/POP3.php on line 372
+[07-Nov-2024 11:01:51 America/Santiago] PHP Warning:  <strong>SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting</strong><br />
+ in /home2/danroate/connecthabesha.com/oc-includes/osclass/utils.php on line 573
+[08-Nov-2024 09:35:53 America/Santiago] PHP Warning:  <strong>SMTP Error: Could not authenticate.</strong><br />
+ in /home2/danroate/connecthabesha.com/oc-includes/osclass/utils.php on line 573
+[08-Nov-2024 09:36:18 America/Santiago] PHP Warning:  <strong>SMTP Error: Could not authenticate.</strong><br />
+ in /home2/danroate/connecthabesha.com/oc-includes/osclass/utils.php on line 573
+[08-Nov-2024 09:42:35 America/Santiago] PHP Warning:  <strong>SMTP Error: Could not authenticate.</strong><br />
+ in /home2/danroate/connecthabesha.com/oc-includes/osclass/utils.php on line 573
+[08-Nov-2024 09:43:41 America/Santiago] PHP Warning:  <strong>SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting</strong><br />
+ in /home2/danroate/connecthabesha.com/oc-includes/osclass/utils.php on line 573
+[08-Nov-2024 10:05:14 America/Santiago] PHP Warning:  <strong>SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting</strong><br />
+ in /home2/danroate/connecthabesha.com/oc-includes/osclass/utils.php on line 573
+[09-Nov-2024 09:03:26 America/Santiago] PHP Fatal error:  Uncaught Twilio\Exceptions\RestException: [HTTP 400] Unable to create record: Permission to send an SMS has not been enabled for the region indicated by the 'To' number: +91848975XXXX in /home2/danroate/connecthabesha.com/oc-content/plugins/sms/src/twilio-php-master/Twilio/Version.php:85
+Stack trace:
+#0 /home2/danroate/connecthabesha.com/oc-content/plugins/sms/src/twilio-php-master/Twilio/Version.php(219): Twilio\Version->exception(Object(Twilio\Http\Response), 'Unable to creat...')
+#1 /home2/danroate/connecthabesha.com/oc-content/plugins/sms/src/twilio-php-master/Twilio/Rest/Api/V2010/Account/MessageList.php(65): Twilio\Version->create('POST', '/Accounts/AC6ff...', Array, Array)
+#2 /home2/danroate/connecthabesha.com/oc-content/plugins/sms/functions.php(88): Twilio\Rest\Api\V2010\Account\MessageList->create('+918489754676', Object(Twilio\Values))
+#3 /home2/danroate/connecthabesha.com/oc-content/plugins/sms/admin/provider.php(67): sms_send('+918489754676', 'Hi this is test...', 'ADMIN_TEST', 'twilio')
+#4 /home in /home2/danroate/connecthabesha.com/oc-content/plugins/sms/src/twilio-php-master/Twilio/Version.php on line 85
+[09-Nov-2024 09:08:19 America/Santiago] PHP Fatal error:  Uncaught Twilio\Exceptions\RestException: [HTTP 400] Unable to create record: Permission to send an SMS has not been enabled for the region indicated by the 'To' number: +91848975XXXX in /home2/danroate/connecthabesha.com/oc-content/plugins/sms/src/twilio-php-master/Twilio/Version.php:85
+Stack trace:
+#0 /home2/danroate/connecthabesha.com/oc-content/plugins/sms/src/twilio-php-master/Twilio/Version.php(219): Twilio\Version->exception(Object(Twilio\Http\Response), 'Unable to creat...')
+#1 /home2/danroate/connecthabesha.com/oc-content/plugins/sms/src/twilio-php-master/Twilio/Rest/Api/V2010/Account/MessageList.php(65): Twilio\Version->create('POST', '/Accounts/AC6ff...', Array, Array)
+#2 /home2/danroate/connecthabesha.com/oc-content/plugins/sms/functions.php(88): Twilio\Rest\Api\V2010\Account\MessageList->create('+918489754676', Object(Twilio\Values))
+#3 /home2/danroate/connecthabesha.com/oc-content/plugins/sms/admin/provider.php(67): sms_send('+918489754676', 'Hi test', 'ADMIN_TEST', 'twilio')
+#4 /home2/danroate/ in /home2/danroate/connecthabesha.com/oc-content/plugins/sms/src/twilio-php-master/Twilio/Version.php on line 85

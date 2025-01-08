@@ -1,0 +1,51 @@
+[06-Oct-2024 15:42:09 Europe/Madrid] PHP Warning:  <strong>SMTP Error: Could not authenticate.</strong><br />
+ in /home2/danroate/connecthabesha.com/oc-includes/osclass/utils.php on line 573
+[06-Oct-2024 15:42:09 Europe/Madrid] PHP Warning:  <strong>SMTP Error: Could not authenticate.</strong><br />
+ in /home2/danroate/connecthabesha.com/oc-includes/osclass/utils.php on line 573
+[06-Oct-2024 16:20:52 Europe/Madrid] PHP Warning:  <strong>SMTP Error: Could not authenticate.</strong><br />
+ in /home2/danroate/connecthabesha.com/oc-includes/osclass/utils.php on line 573
+[06-Oct-2024 16:20:52 Europe/Madrid] PHP Warning:  <strong>SMTP Error: Could not authenticate.</strong><br />
+ in /home2/danroate/connecthabesha.com/oc-includes/osclass/utils.php on line 573
+[06-Oct-2024 16:33:49 Europe/Madrid] PHP Warning:  <strong>SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting</strong><br />
+ in /home2/danroate/connecthabesha.com/oc-includes/osclass/utils.php on line 573
+[06-Oct-2024 16:33:49 Europe/Madrid] PHP Warning:  <strong>SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting</strong><br />
+ in /home2/danroate/connecthabesha.com/oc-includes/osclass/utils.php on line 573
+[22-Oct-2024 08:22:51 Europe/Madrid] PHP Fatal error:  Uncaught Error: Call to a member function getOriginalName() on bool in /home2/danroate/connecthabesha.com/oc-includes/AjaxUploader.php:41
+Stack trace:
+#0 /home2/danroate/connecthabesha.com/oc-includes/osclass/controller/ajax.php(384): AjaxUploader->getOriginalName()
+#1 /home2/danroate/connecthabesha.com/index.php(293): CWebAjax->doModel()
+#2 {main}
+  thrown in /home2/danroate/connecthabesha.com/oc-includes/AjaxUploader.php on line 41
+[27-Oct-2024 19:29:37 Europe/Madrid] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 36864 bytes) in /home2/danroate/connecthabesha.com/oc-includes/osclass/classes/ImageProcessing.php on line 110
+[27-Oct-2024 19:31:26 Europe/Madrid] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 36864 bytes) in /home2/danroate/connecthabesha.com/oc-includes/osclass/classes/ImageProcessing.php on line 110
+[07-Nov-2024 14:25:02 America/Santiago] PHP Warning:  fgets() expects parameter 1 to be resource, bool given in /home2/danroate/connecthabesha.com/oc-includes/vendor/phpmailer/phpmailer/src/POP3.php on line 372
+[07-Nov-2024 14:25:02 America/Santiago] PHP Warning:  <strong>SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting</strong><br />
+ in /home2/danroate/connecthabesha.com/oc-includes/osclass/utils.php on line 573
+[07-Nov-2024 14:36:30 America/Santiago] PHP Warning:  fgets() expects parameter 1 to be resource, bool given in /home2/danroate/connecthabesha.com/oc-includes/vendor/phpmailer/phpmailer/src/POP3.php on line 372
+[07-Nov-2024 14:36:30 America/Santiago] PHP Warning:  <strong>SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting</strong><br />
+ in /home2/danroate/connecthabesha.com/oc-includes/osclass/utils.php on line 573
+[07-Nov-2024 14:36:30 America/Santiago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/danroate/connecthabesha.com/oc-includes/osclass/utils.php:2292) in /home2/danroate/connecthabesha.com/oc-includes/osclass/utils.php on line 2298
+[07-Nov-2024 14:42:32 America/Santiago] PHP Warning:  fgets() expects parameter 1 to be resource, bool given in /home2/danroate/connecthabesha.com/oc-includes/vendor/phpmailer/phpmailer/src/POP3.php on line 372
+[07-Nov-2024 14:42:33 America/Santiago] PHP Warning:  <strong>SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting</strong><br />
+ in /home2/danroate/connecthabesha.com/oc-includes/osclass/utils.php on line 573
+[07-Nov-2024 14:42:33 America/Santiago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/danroate/connecthabesha.com/oc-includes/osclass/utils.php:2292) in /home2/danroate/connecthabesha.com/oc-includes/osclass/utils.php on line 2298
+[07-Nov-2024 14:57:35 America/Santiago] PHP Warning:  fgets() expects parameter 1 to be resource, bool given in /home2/danroate/connecthabesha.com/oc-includes/vendor/phpmailer/phpmailer/src/POP3.php on line 372
+[07-Nov-2024 14:57:35 America/Santiago] PHP Warning:  <strong>SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting</strong><br />
+ in /home2/danroate/connecthabesha.com/oc-includes/osclass/utils.php on line 573
+[07-Nov-2024 14:57:35 America/Santiago] PHP Warning:  fgets() expects parameter 1 to be resource, bool given in /home2/danroate/connecthabesha.com/oc-includes/vendor/phpmailer/phpmailer/src/POP3.php on line 372
+[07-Nov-2024 14:57:35 America/Santiago] PHP Warning:  <strong>SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting</strong><br />
+ in /home2/danroate/connecthabesha.com/oc-includes/osclass/utils.php on line 573
+[07-Nov-2024 14:57:35 America/Santiago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/danroate/connecthabesha.com/oc-includes/osclass/utils.php:2292) in /home2/danroate/connecthabesha.com/oc-includes/osclass/utils.php on line 2298
+[08-Nov-2024 04:39:59 America/Santiago] PHP Warning:  fgets() expects parameter 1 to be resource, bool given in /home2/danroate/connecthabesha.com/oc-includes/vendor/phpmailer/phpmailer/src/POP3.php on line 372
+[08-Nov-2024 04:40:00 America/Santiago] PHP Warning:  <strong>SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting</strong><br />
+ in /home2/danroate/connecthabesha.com/oc-includes/osclass/utils.php on line 573
+[08-Nov-2024 04:40:00 America/Santiago] PHP Warning:  fgets() expects parameter 1 to be resource, bool given in /home2/danroate/connecthabesha.com/oc-includes/vendor/phpmailer/phpmailer/src/POP3.php on line 372
+[08-Nov-2024 04:40:00 America/Santiago] PHP Warning:  <strong>SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting</strong><br />
+ in /home2/danroate/connecthabesha.com/oc-includes/osclass/utils.php on line 573
+[08-Nov-2024 04:40:00 America/Santiago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/danroate/connecthabesha.com/oc-includes/osclass/utils.php:2292) in /home2/danroate/connecthabesha.com/oc-includes/osclass/utils.php on line 2298
+[16-Nov-2024 05:30:35 America/Santiago] PHP Parse error:  syntax error, unexpected ')' in /home2/danroate/connecthabesha.com/oc-content/plugins/sms/index.php on line 297
+[16-Nov-2024 05:31:06 America/Santiago] PHP Parse error:  syntax error, unexpected ')' in /home2/danroate/connecthabesha.com/oc-content/plugins/sms/index.php on line 297
+[16-Nov-2024 05:31:42 America/Santiago] PHP Parse error:  syntax error, unexpected ')' in /home2/danroate/connecthabesha.com/oc-content/plugins/sms/index.php on line 294
+[04-Dec-2024 12:20:37 America/Santiago] PHP Parse error:  syntax error, unexpected ''epsilon'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /home2/danroate/connecthabesha.com/oc-content/themes/epsilon/user-register.php on line 101
+[04-Dec-2024 12:20:42 America/Santiago] PHP Parse error:  syntax error, unexpected ''epsilon'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /home2/danroate/connecthabesha.com/oc-content/themes/epsilon/user-register.php on line 101
+[04-Dec-2024 12:21:06 America/Santiago] PHP Parse error:  syntax error, unexpected ''epsilon'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /home2/danroate/connecthabesha.com/oc-content/themes/epsilon/user-register.php on line 101
